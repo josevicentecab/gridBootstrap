@@ -9,6 +9,9 @@ body {
 form input#note_text {
 	width: 350px;
 }
+p {
+    
+}
 .danger {
     border: 3px solid red;
     display: none;
