@@ -9,7 +9,14 @@ body {
 form input#note_text {
 	width: 350px;
 }
-
+.danger {
+    border: 3px solid red;
+    display: none;
+}
+.correcto {
+    border: 3px solid blue;
+    display: none;
+}
 /* nota */
 
 ul#notas li {

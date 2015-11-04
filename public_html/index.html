@@ -9,9 +9,14 @@
     </head>
     <body>
         <form onsubmit="return false;">
-            <input type="text" id="texto" required>
+            <input type="password" id="password" required>
+            <input type="password" id ="password_repeat" required>
             <input type="submit" value="Enviar" />
         </form>
-        <ul id ="lista"></ul>
-    </body>
+        <div class="danger">
+            Están mal las contraseñas.
+        </div>
+        <div class="correcto">
+            Las contraseñas son correctas
+        </div>
 </html>
